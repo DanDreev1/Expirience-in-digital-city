@@ -1,0 +1,61 @@
+.background {
+    background-color: #FCE9D3;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    font-family: 'Titan One';
+    font-size: 100px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+.content {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+    .text {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 600px;
+    }
+    .text {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 320px;
+    }
+    .logo {
+        font-size: 80px;
+    }
+    .text {
+        font-size: 28px;
+    }
+}
